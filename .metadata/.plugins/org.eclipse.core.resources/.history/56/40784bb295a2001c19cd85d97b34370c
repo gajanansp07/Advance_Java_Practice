@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript">
+function fullName() {
+	  const output = document.getElementById('fullname');
+	  let text = document.getElementById("fn").value;
+	  output.innerHTML = text;  
+	}
+</script>
+</head>
+<body>
+<form>
+<table style="margin-left: auto; margin-right: auto;">
+<tr>
+<td>Enter First Name : </td>
+<td><input type="text" name="fname" id="fn"/></td>
+</tr>
+<tr>
+<td>Enter Second Name : </td>
+<td><input type="text" name="lname" /></td>
+</tr>
+<tr>
+<td colspan=2><input type="submit" value="Click Me!..." onClick="fullName()"></td>
+</tr>
+</table>
+<div id="fullname"></div>
+</form>
+</body>
+</html>

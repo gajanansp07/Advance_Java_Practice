@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<style>
+   body{
+   		    margin-top: 10%;
+   }
+	td{
+		padding: 10px;
+}
+table{
+		text-align: -webkit-center;
+}
+</style>
+<script type="text/javascript">
+function totalBil() {
+	  const output = document.getElementById('fullname');
+	  let text = document.getElementById('fn').value;
+	  output.innerHTML = text.concat(" "+document.getElementById('bill').value);  
+	}
+</script>
+
+</head>
+<body>
+	<form>
+	<table align="center">
+	<tr> <td> Enter Item : </td><td> <input type="text" name="inum" id="in" placeholder="Enter Iterm Number :Like 1" > </td> </tr>
+	<tr> <td> Enter Item Name : </td><td> <input type="text" name="iname" id="inm" placeholder="Enter Iterm Name :Like Milk" > </td> </tr>
+	<tr> <td> Enter Qty : </td><td> <input type="text" name="iqn" id="iq" placeholder="Enter Quentity :Like 5" > </td></tr>
+	<tr> <td> Enter Cost : </td><td> <input type="text" name="icost"  id="in" placeholder="Enter Cost :Like 300" > </td></tr>
+	<tr> <td colspan=2 align="center"> <input type="button" value="CALCULATE TOTAL BILL" onClick="totalBill()"></td> </tr>
+	</table>
+	<div id="bill" align="center"> <h3>Total Bill :</h3></div>
+	</form>
+</body>
+</html>

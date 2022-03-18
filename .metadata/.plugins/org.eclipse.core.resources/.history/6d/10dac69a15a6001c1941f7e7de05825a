@@ -1,0 +1,31 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style type="text/css">
+div#sub-menu {
+    text-align: center;
+}
+a.uhome {
+    font-size: 2em;
+    border: 2px solid gray;
+    padding: 2px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+</style>
+</head>
+<body>
+	<h1>WELCOME TO USER HOME PAGE</h1>
+	<br>
+	<div id="sub-menu">
+	<a href="ShowMyRecord.jsp" class="uhome"  target="iframe_home">ShowMyRecord</a>
+	<a href="UpdateRecord.jsp" class="uhome"  target="iframe_home">UpdateRecord</a>
+	<a href="DeleteRecord.jsp" class="uhome" target="iframe_home">DeleteRecord</a>
+	<a href="ShowAllEMployee.jsp" class="uhome" target="iframe_home">ShowAllRecords</a>
+	</div>
+</body>
+</html>

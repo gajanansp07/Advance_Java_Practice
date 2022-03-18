@@ -1,0 +1,26 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<%@ page import="java.sql.*" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1 align="center"> All Employee Details </h1>
+<%
+try{
+Class.forName("oracle.jdbc.driver.OracleDriver");
+Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","admin","admin");
+Statement stmt = con.createStatement();
+ResultSet rs = stmt.executeQuery("select * from registration");
+if(rs.next())
+	out.print("good");
+}catch(Exception e){
+	out.println(e);
+}
+%>
+
+</body>
+</html>

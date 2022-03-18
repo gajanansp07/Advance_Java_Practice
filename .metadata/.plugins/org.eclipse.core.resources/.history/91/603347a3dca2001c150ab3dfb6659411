@@ -1,0 +1,66 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+		#show{
+			appearance: auto;
+			user-select: none;
+			white-space: pre;
+			align-items: flex-start;
+			text-align: center;
+			cursor: default;
+			box-sizing: border-box;
+			background-color: green;
+			color: -internal-light-dark(rgb(248, 241, 241), rgb(165, 156, 156));
+			padding: 1px 6px;
+			border-width: 2px;
+			border-style: outset;
+			border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+			border-image: initial;
+		}
+        body {
+            margin-top: 2%;
+        }
+
+        td {
+            padding: 1px;
+        }
+
+        table {
+        	border : 1px solid;
+        	padding :10px;
+            text-align: -webkit-center;
+        }
+    </style>
+</head>
+<body>
+	<form action="CustBill.jsp" method="get" >
+	<table align="center">
+	<caption><h2>*Customer Bill*</h2></caption>
+	<tr><td>Customer ID</td><td> :  <input type="text" name="cname" id="cname"> </td></tr>
+	<tr><td>Customer Name</td><td> :  <input type="text" name="cname" id="cname"> </td></tr>
+	<tr><td>Customer Phone No</td><td> :  <input type="text" name="cname" id="cname"> </td></tr>
+	<tr><td colspan=2><hr /></td> </tr>
+	<tr><td><b>Product Name</b></td><td> :  <b>Price</b> </td></tr>
+	<tr><td> <input type="text" name="cname" id="cname"></td><td> :  <input type="text" name="cname" id="cname"> </td></tr>
+	<tr><td> <input type="text" name="cname" id="cname"></td><td> :  <input type="text" name="cname" id="cname"> </td></tr>
+	<tr><td> <input type="text" name="cname" id="cname"></td><td> :  <input type="text" name="cname" id="cname"> </td></tr>
+	<tr><td> <input type="text" name="cname" id="cname"></td><td> :  <input type="text" name="cname" id="cname"> </td></tr>
+	<tr><td> <input type="text" name="cname" id="cname"></td><td> :  <input type="text" name="cname" id="cname"> </td></tr>
+	<tr><td colspan=2 align="center"> <hr /> <input type="button" value="Show" id="show"> </td> </tr>
+	<tr><td> Total</td><td> :  <input type="text" name="cname" id="cname"> </td></tr>
+	<tr><td> Discount </td><td> :  <input type="text" name="cname" id="cname"> </td></tr>
+	<tr><td colspan=2><hr /></td> </tr>
+	<tr><td> SGST</td><td> :  <input type="text" name="cname" id="cname"> </td></tr>
+	<tr><td> CGST</td><td> :  <input type="text" name="cname" id="cname"> </td></tr>
+	<tr><td></td> </tr>
+	<tr><td> SGST</td><td> :  <input type="text" name="cname" id="cname"> </td></tr>
+	</table>
+	</form>
+	
+</body>
+</html>

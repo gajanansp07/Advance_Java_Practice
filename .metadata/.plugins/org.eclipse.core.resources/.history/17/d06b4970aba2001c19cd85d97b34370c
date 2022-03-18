@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<style>
+   body{
+   		    margin-top: 10%;
+   }
+	td{
+		padding: 10px;
+}
+table{
+		text-align: -webkit-center;
+}
+</style>
+<script type="text/javascript">
+function result() {
+	  const TOT = document.getElementById("totl");
+	  const PER = document.getElementById("per");
+	  const TOTAL = document.getElementById('fm').value + document.getElementById('sm').value +document.getElementById('tm').value;
+
+	  TOT.innerHTML = "<h3>Total is : " + TOTAL + "</h3>";  
+	  PER.innerHTML = "<h3>Parcentage is : " + (TOTAL/3).toFixed(2) + "</h3>";  
+	}
+</script>
+
+</head>
+<body>
+	<form>
+	<table align="center">
+	<tr> <td> Enter Student No : </td><td> <input type="text" name="snum" id="snum" placeholder="Enter Student No" /> </td> </tr>
+	<tr> <td> Enter Student Name : </td><td> <input type="text" name="snm" id="snm" placeholder=" Enter Student Name " /> </td> </tr>
+	<tr> <td> Enter Marks 1 : </td><td> <input type="text" name="fm" id="fm" placeholder=" Enter Marks 1 " /> </td></tr>
+	<tr> <td> Enter Marks 2 : </td><td> <input type="text" name="sm"  id="sm" placeholder=" Enter Marks 2 " /> </td></tr>
+	<tr> <td> Enter Marks 3 : </td><td> <input type="text" name="tm"  id="tm" placeholder=" Enter Marks 3 " /> </td></tr>
+	<tr> <td colspan=2 align="center"> <input type="button" value="CALCULATE TOTAL BILL" onClick="result()" /></td> </tr>
+	</table>
+	<div id="totl" align="center"> <h3>Total is :</h3></div><br /><br />
+	<div id="per" align="center"> <h3>Percentage is :</h3></div>
+	</form>
+</body>
+</html>

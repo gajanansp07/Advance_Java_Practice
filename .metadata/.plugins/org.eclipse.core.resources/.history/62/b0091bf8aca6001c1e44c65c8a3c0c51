@@ -1,0 +1,31 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+    <%@page import="java.sql.*" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1 align="center">Updated Succefull......</h1>
+<%
+	String ename = request.getParameter("NAME");
+	out.print(ename);
+	String epass = request.getParameter("PASSWORD");
+	out.print(epass);
+	String email = request.getParameter("EMAIL");
+	out.print(email);
+	String eph = request.getParameter("PHONE");
+	out.print(eph);
+	String egn = request.getParameter("GENDER");
+	out.print(egn);
+	String eadd = request.getParameter("ADDRESS");
+	out.print(eadd);
+	String econ = request.getParameter("COUNTRY");
+	out.print(econ);
+	
+%>
+
+</body>
+</html>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="JDBCCURD">
+        <property name="context-root" value="JDBCCURD"/>
+        <property name="java-output-path" value="/JDBCCURD/build/classes"/>
+    </wb-module>
+</project-modules>

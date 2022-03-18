@@ -1,0 +1,47 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+        body {
+            margin-top: 10%;
+        }
+
+        td {
+            padding: 1px;
+        }
+
+        table {
+            text-align: -webkit-center;
+        }
+    </style>
+</head>
+<body>
+	<form action="CustBill.jsp" method="get" >
+	<table align="center">
+	<tr><td>Customer ID</td><td> :  <input type="text" name="cname" id="cname"> </td></tr>
+	<tr><td>Customer Name</td><td> :  <input type="text" name="cname" id="cname"> </td></tr>
+	<tr><td>Customer Phone No</td><td> :  <input type="text" name="cname" id="cname"> </td></tr>
+	<tr><td></td> </tr>
+	<tr><td>Product Name</td><td> :  <input type="text" name="cname" id="cname"> </td></tr>
+	<tr><td> <input type="text" name="cname" id="cname"></td><td> :  <input type="text" name="cname" id="cname"> </td></tr>
+	<tr><td> <input type="text" name="cname" id="cname"></td><td> :  <input type="text" name="cname" id="cname"> </td></tr>
+	<tr><td> <input type="text" name="cname" id="cname"></td><td> :  <input type="text" name="cname" id="cname"> </td></tr>
+	<tr><td> <input type="text" name="cname" id="cname"></td><td> :  <input type="text" name="cname" id="cname"> </td></tr>
+	<tr><td> <input type="text" name="cname" id="cname"></td><td> :  <input type="text" name="cname" id="cname"> </td></tr>
+	<tr><td colspan=2> <hr /></td> </tr>
+	<tr><td> Total</td><td> :  <input type="text" name="cname" id="cname"> </td></tr>
+	<tr><td> Total</td><td> :  <input type="text" name="cname" id="cname"> </td></tr>
+	<tr><td></td> </tr>
+	<tr><td> SGST</td><td> :  <input type="text" name="cname" id="cname"> </td></tr>
+	<tr><td> CGST</td><td> :  <input type="text" name="cname" id="cname"> </td></tr>
+	<tr><td></td> </tr>
+	<tr><td> SGST</td><td> :  <input type="text" name="cname" id="cname"> </td></tr>
+	</table>
+	</form>
+	
+</body>
+</html>

@@ -1,0 +1,30 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+    <%@page import="java.sql.*" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1 align="center">Updated Succefull......</h1>
+<%
+	String ename = request.getParameter("NAME");
+	String epass = request.getParameter("PASSWORD");
+	String email = request.getParameter("EMAIL");
+	String eph = request.getParameter("PHONE");
+	String egn = request.getParameter("GENDER");
+	String eadd = request.getParameter("ADDRESS");
+	String econ = request.getParameter("COUNTRY");
+	
+	Class.forName("oracle.jdbc.driver.OracleDriver");
+	Connection con	= DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","admin","admin");
+	String sql ="Update registration SET NAME=?,PASSWORD=?,EMAIL=?,PHONE=?,GENDER=?,ADDRESS=?,COUNTRY=?";
+	PreparedStatement ps =con.prepareStatement(sql);
+
+	
+%>
+
+</body>
+</html>

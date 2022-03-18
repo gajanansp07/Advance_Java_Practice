@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<style>
+   body{
+   		    margin-top: 10%;
+   }
+	td{
+		padding: 10px;
+}
+table{
+		text-align: -webkit-center;
+}
+</style>
+<script type="text/javascript">
+function fullName() {
+	  const output = document.getElementById('fullname');
+	  let text = document.getElementById('fn').value;
+	  output.innerHTML = text.concat(" "+document.getElementById('ln').value);  
+	}
+</script>
+
+</head>
+<body>
+	<form>
+	<table align="center">
+	<tr> <td> Enter Item : </td><td> <input type="text" name="inum" id="in" placeholder="Enter Fist digit" > </td> </tr>
+	<tr> <td> Enter Item Name : </td><td> <input type="text" name="iname" id="in" placeholder="Iterm Number :Like 1" > </td> </tr>
+	<tr> <td> Enter Qty : </td><td> <input type="text" name="iqn" id="in" placeholder="Iterm Number :Like 1" > </td></tr>
+	<tr> <td> Enter Cost : </td><td> <input type="text" name="icost"  id="in" placeholder="Iterm Number :Like 1" > </td></tr>
+	<tr> <td colspan=2> <input type="button" value="CALCULATE TOTAL BILL"> </td> </tr>
+	</table>
+	</form>
+</body>
+</html>

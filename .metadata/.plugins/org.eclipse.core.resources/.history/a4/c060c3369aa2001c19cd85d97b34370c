@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+   body{
+   		    margin-top: 20%;
+   }
+	td{
+		padding: 10px;
+}
+table,tr,td{
+		text-align: -webkit-center;
+}
+</style>
+<script type="text/javascript">
+function fullName() {
+	  const output = document.getElementById('fullname');
+	  let text = document.getElementById('fn').value;
+	  output.innerHTML = text.concat(" "+document.getElementById('ln').value);  
+	}
+</script>
+</head>
+<body>
+<form>
+<table align="center">
+<tr>
+<td>Enter First Name : </td>
+<td><input type="text" name="fname" id="fn"/></td>
+</tr>
+<tr>
+<td>Enter Second Name : </td>
+<td><input type="text" name="lname" id="ln" /></td>
+</tr>
+<tr>
+<td colspan=2><input type="button" value="Click Me!..." onClick="fullName()" ></td>
+</tr>
+</table>
+<div id="fullname" style="text-align-last: center"></div>
+</form>
+</body>
+</html>

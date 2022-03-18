@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript">
+function showCookies() {
+	  const output = document.getElementById('cookies');
+	  let x = getElementById("fullname");
+	  x.value="Test"
+	  
+	}
+</script>
+</head>
+<body>
+<form method="post" action="Fullnm">
+<table style="margin-left: auto; margin-right: auto;">
+<tr>
+<td>Enter First Name : </td>
+<td><input type="text" name="fname" /></td>
+</tr>
+<tr>
+<td>Enter Second Name : </td>
+<td><input type="text" name="lname" /></td>
+</tr>
+<tr>
+<td colspan=2><input type="submit" value="Click Me!..."></td>
+</tr>
+</table>
+<div id="fullname"></div>
+</form>
+</body>
+</html>

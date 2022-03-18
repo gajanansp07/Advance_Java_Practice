@@ -1,0 +1,29 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="" method="get" >
+	<table>
+	<tr><td>Customer ID : </td><td> <input type="text" name="cname" id="cname"> </td></tr>
+	<tr><td>Customer Name : </td><td> <input type="text" name="cname" id="cname"> </td></tr>
+	<tr><td>Customer Phone No : </td><td> <input type="text" name="cname" id="cname"> </td></tr>
+	<tr><td></td> </tr>
+	<tr><td>Product Name : </td><td> <input type="text" name="cname" id="cname"> </td></tr>
+	<tr><td> <input type="text" name="cname" id="cname"> : </td><td> <input type="text" name="cname" id="cname"> </td></tr>
+	<tr><td> <input type="text" name="cname" id="cname"> : </td><td> <input type="text" name="cname" id="cname"> </td></tr>
+	<tr><td> <input type="text" name="cname" id="cname"> : </td><td> <input type="text" name="cname" id="cname"> </td></tr>
+	<tr><td> <input type="text" name="cname" id="cname"> : </td><td> <input type="text" name="cname" id="cname"> </td></tr>
+	<tr><td> <input type="text" name="cname" id="cname"> : </td><td> <input type="text" name="cname" id="cname"> </td></tr>
+	
+	<tr><td>Customer ID : </td><td> <input type="text" name="cname" id="cname"> </td></tr>
+	
+	</table>
+	</form>
+	
+</body>
+</html>

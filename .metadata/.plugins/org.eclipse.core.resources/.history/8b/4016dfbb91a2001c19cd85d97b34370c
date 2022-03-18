@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form method="post" action="MyPost">
+<table style="align : center">
+<tr>
+<td>Enter First Name : </td>
+<td><input type="text" name="fname" /></td>
+</tr>
+<tr>
+<td>Enter Second Name : </td>
+<td><input type="text" name="lname" /></td>
+</tr>
+<tr>
+<td colspan=2><input type="submit" value="Click Me!..."></td>
+</tr>
+</table>
+
+</form>
+</body>
+</html>

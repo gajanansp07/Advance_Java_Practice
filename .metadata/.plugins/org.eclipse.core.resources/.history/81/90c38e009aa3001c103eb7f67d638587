@@ -1,0 +1,30 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<%
+String sn = request.getParameter("sname");
+String ps = request.getParameter("spass");
+String cps = request.getParameter("scpass");
+String gen = request.getParameter("gen");
+String ql = request.getParameter("quli");
+String []cus = request.getParameterValues("course");
+String []hb = request.getParameterValues("hob");
+String add = request.getParameter("add");
+
+out.println("Student Name : "+sn+"<br>Student Passwprd : "+ps+"<br>Student ConformPassword : "+cps+"<br>Student Gender :"+gen+"Student Qualification : "+ql+"<br>Student Courses : ");
+
+for(String s: cus)
+	out.println(s+" ");
+out.println("Hobbies : ");
+for(String s: hb)
+	out.println(s+" ");
+out.println("Student Address : "+add);
+%>
+</body>
+</html>

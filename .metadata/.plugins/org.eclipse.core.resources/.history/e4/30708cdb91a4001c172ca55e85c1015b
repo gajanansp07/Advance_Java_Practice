@@ -1,0 +1,25 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<%
+String Name = request.getParameter("ename");
+String Password = request.getParameter("eps");
+String Email = request.getParameter("email");
+String Phone = request.getParameter("ephone");
+String Gender = request.getParameter("gender");
+String Add = request.getParameter("add");
+String Country = request.getParameter("country");
+
+Class.forName("oracle.jdbc.driver.OracleDriver");
+out.println("Driver Loaded");
+
+
+%>
+</body>
+</html>

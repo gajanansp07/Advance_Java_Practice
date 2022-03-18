@@ -1,0 +1,8 @@
+0:0:0:0:0:0:0:1 - - [19/Mar/2022:00:05:02 +0530] "GET /JDBCCURD/UpdateRecord.jsp HTTP/1.1" 200 372
+0:0:0:0:0:0:0:1 - - [19/Mar/2022:00:05:03 +0530] "POST /JDBCCURD/updateRecordone.jsp HTTP/1.1" 200 492
+0:0:0:0:0:0:0:1 - - [19/Mar/2022:00:05:18 +0530] "POST /JDBCCURD/updateRecordone.jsp HTTP/1.1" 200 1756
+0:0:0:0:0:0:0:1 - - [19/Mar/2022:00:05:21 +0530] "POST /JDBCCURD/updateMyRecordone.jsp HTTP/1.1" 200 206
+0:0:0:0:0:0:0:1 - - [19/Mar/2022:00:06:53 +0530] "POST /JDBCCURD/updateRecordone.jsp HTTP/1.1" 200 1756
+0:0:0:0:0:0:0:1 - - [19/Mar/2022:00:06:58 +0530] "POST /JDBCCURD/updateMyRecordone.jsp HTTP/1.1" 200 234
+0:0:0:0:0:0:0:1 - - [19/Mar/2022:00:08:06 +0530] "POST /JDBCCURD/updateMyRecordone.jsp HTTP/1.1" 200 214
+0:0:0:0:0:0:0:1 - - [19/Mar/2022:00:09:18 +0530] "POST /JDBCCURD/updateMyRecordone.jsp HTTP/1.1" 200 214
