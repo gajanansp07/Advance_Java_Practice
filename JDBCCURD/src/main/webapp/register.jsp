@@ -28,7 +28,7 @@ table{
     <div id="regf">
         <form action="reg.jsp">
             <table align="center">
-                <caption><h1 id="cp">EMPLOYEE MANAGEMENT SYSTEM</h1></caption>
+                <caption id="cp">EMPLOYEE MANAGEMENT SYSTEM</caption>
                 <tr>
                     <td>Name : </td>
                     <td> <input type="text" name="ename"> </td>
@@ -69,7 +69,7 @@ table{
                             <option value="Virgin Islands (Brit)">Virgin Islands (Brit)</option>
                             <option value="Virgin Islands (USA)">Virgin Islands (USA)</option>
                             <option value="Wake Island">Wake Island</option>
-                            <option value="Wallis & Futana Is">Wallis & Futana Is</option>
+                            <option value="Wallis & Futana Is">Wallis and Futana Is</option>
                         </select>
                     </td>
                 </tr>

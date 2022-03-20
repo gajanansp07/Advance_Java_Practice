@@ -13,7 +13,7 @@ td {
 </head>
 <body>
 	<h1 id="jd_log_hdng" align="center">Employee Login</h1>
-	<form action="ulogin.jsp" mthod="post">
+	<form action="ulogin.jsp" method="post">
 	<table align="center">
 		<tr>
 			<td>User Id : </td>

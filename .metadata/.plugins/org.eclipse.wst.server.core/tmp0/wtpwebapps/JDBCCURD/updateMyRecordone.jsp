@@ -10,26 +10,26 @@
 <body>
 
 <%	
-String email = request.getParameter("NAME");
-if(email != null)
+
+String ename = request.getParameter("NAME");
+String epass = request.getParameter("PASSWORD");
+String email = request.getParameter("EMAIL");
+String eph = request.getParameter("PHONE");
+String egn = request.getParameter("GENDER");
+String eadd = request.getParameter("ADDRESS");
+String econ = request.getParameter("COUNTRY");
+String uemail = request.getParameter("EMAIL");
+if(uemail != null)
 {
 	try{
 	Class.forName("oracle.jdbc.driver.OracleDriver");
 	Connection con	= DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","admin","admin");
 	
 	//String mytest="UPDATE registration SET PASSWORD='ADMIN', COUNTRY='India' where email='ganesh@gmail.com'";
-	String sql ="Update registration SET name=?, password=?, email=?, phone=?, gender=?, address=?, country=? where name="+email;
-	out.println(email);
-	PreparedStatement ps =con.prepareStatement(sql);
-	
-	String ename = request.getParameter("NAME");
-	String epass = request.getParameter("PASSWORD");
-    email = request.getParameter("EMAIL");
-	String eph = request.getParameter("PHONE");
-	String egn = request.getParameter("GENDER");
-	String eadd = request.getParameter("ADDRESS");
-	String econ = request.getParameter("COUNTRY");
-	
+	String sql ="Update registration SET name=?, password=?, email=?, phone=?, gender=?, address=?, country=? where email=?";// where NAME="+email;
+	out.println(uemail);
+	PreparedStatement ps =con.prepareStatement(sql);	
+	ps.setString(8, uemail );
 	ps.setString(1, ename);
 	ps.setString(2, epass);
 	ps.setString(3, email);
