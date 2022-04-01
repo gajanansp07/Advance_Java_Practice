@@ -7,6 +7,27 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>Check Balance </h1>
+<h1 align="center">Check Balance </h1>
+<form action="showBal.jsp" method="post">
+    <table align="center">
+        <caption>Check Balance</caption>
+        <tr>
+            <td><label for="accno">Account Number </label> </td>
+            <td><input type="text" name="accno" id="accno"/> </td>
+        </tr>
+        <tr>
+            <td><label for="uname">User Name </label> </td>
+            <td><input type="text" name="uname" id="uname"/> </td>
+        </tr>
+        <tr>
+            <td><label for="upass">Password </label> </td>
+            <td><input type="password" name="upass" id="upass"/> </td>
+        </tr>
+        <tr>
+            <td> <input type="submit" id="chkbal" value="Show Balance" /> </td>
+            <td><input type="reset" value="Clear" id="clr"/> </td>
+        </tr>
+    </table>
+</form>
 </body>
 </html>

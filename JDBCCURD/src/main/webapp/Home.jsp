@@ -6,6 +6,7 @@
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 <style>
+
 body{
 background-color: antiquewhite;
 }
@@ -28,6 +29,9 @@ background-color: antiquewhite;
   background-color: rgb(62, 90, 245);
   color: black;
   border-radius: 2em;
+}
+iframe {
+    margin-top: 10%;
 }
 
 /* Add a color to the active/current link */
