@@ -1,0 +1,10 @@
+package mypackage;
+
+public class Check_Prime_Number {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
