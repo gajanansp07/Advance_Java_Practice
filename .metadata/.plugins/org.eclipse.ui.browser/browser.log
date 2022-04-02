@@ -321,3 +321,14 @@ Mar 25, 2022 14:24:54.515 [8584:1764:0325/142454.513:ERROR:connection_factory_im
 Mar 28, 2022 01:01:58.894 NEW SESSION
 Mar 28, 2022 01:01:58.894 [6452:4928:0328/010158.892:ERROR:device_event_log_impl.cc(214)] [01:01:58.892] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
 Mar 28, 2022 01:39:49.977 [6452:4928:0328/013949.977:ERROR:device_event_log_impl.cc(214)] [01:39:49.976] USB: usb_service_win.cc:260 Failed to get device driver name: Element not found. (0x490)
+
+Apr 02, 2022 19:52:39.411 NEW SESSION
+Apr 02, 2022 19:52:39.411 [14916:8408:0402/195239.409:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Apr 02, 2022 19:52:39.457 [14916:1956:0402/195239.457:ERROR:device_event_log_impl.cc(214)] [19:52:39.456] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Apr 02, 2022 19:53:00.272 [14916:8408:0402/195300.270:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Apr 02, 2022 19:53:49.407 [14916:8408:0402/195349.406:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Apr 02, 2022 19:55:29.331 [14916:8408:0402/195529.330:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Apr 02, 2022 19:58:32.361 [14916:8408:0402/195832.360:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Apr 02, 2022 19:59:57.114 [14916:8408:0402/195957.114:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -105
+Apr 02, 2022 20:00:08.515 [14916:1956:0402/200008.514:ERROR:device_event_log_impl.cc(214)] [20:00:08.513] USB: usb_service_win.cc:260 Failed to get device driver name: Element not found. (0x490)
+Apr 02, 2022 20:00:09.526 [14916:8408:0402/200009.526:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
