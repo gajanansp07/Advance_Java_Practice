@@ -1,0 +1,13 @@
+package com.DataJPAExam;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringBootMvnDaotoDataBaseApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringBootMvnDaotoDataBaseApplication.class, args);
+	}
+
+}

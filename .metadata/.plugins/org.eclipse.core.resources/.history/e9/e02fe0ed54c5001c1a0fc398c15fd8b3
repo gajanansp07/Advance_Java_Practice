@@ -1,0 +1,19 @@
+package com.Ganesh.control;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.Ganesh.model.Product;
+import com.Ganesh.repo.ProductRepo;
+
+@RestController
+public class ProductController {
+	
+	@Autowired
+	private ProductRepo pRep;
+	
+	@postMapping("/save")
+	public Student saveStudent(@RequestBody Product product)
+
+}

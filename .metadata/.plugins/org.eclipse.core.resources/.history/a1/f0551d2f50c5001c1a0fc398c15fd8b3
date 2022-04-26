@@ -1,0 +1,5 @@
+package com.PostMan.model;
+
+public class Student {
+
+}

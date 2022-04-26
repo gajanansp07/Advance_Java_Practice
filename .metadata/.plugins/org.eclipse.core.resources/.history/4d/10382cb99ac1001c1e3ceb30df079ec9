@@ -1,0 +1,13 @@
+package com.Sathya;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringBootDataJpaMysqlDataBaseApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringBootDataJpaMysqlDataBaseApplication.class, args);
+	}
+
+}

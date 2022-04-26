@@ -1,0 +1,5 @@
+package com.Sathya.entity;
+
+public class Book {
+
+}

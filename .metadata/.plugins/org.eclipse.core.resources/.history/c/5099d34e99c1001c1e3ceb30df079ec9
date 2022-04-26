@@ -1,0 +1,9 @@
+package com.Sathya.repo;
+
+import java.io.Serializable;
+
+import com.Sathya.entity.Book;
+
+public interface BookRepo extends CrudRepository<Book,Serializable> {
+
+}

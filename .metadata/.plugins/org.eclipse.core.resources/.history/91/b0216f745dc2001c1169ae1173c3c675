@@ -1,0 +1,5 @@
+package com.Ganesh.repo;
+
+public interface StudentRepo {
+
+}

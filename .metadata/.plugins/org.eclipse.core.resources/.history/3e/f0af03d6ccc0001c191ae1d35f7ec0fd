@@ -1,0 +1,5 @@
+package com.DataJPAExam.repo;
+
+public class StudentRepo {
+
+}
