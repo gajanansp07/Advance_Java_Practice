@@ -1,5 +1,0 @@
-package com.Sathya.repo;
-
-public interface BookRepo {
-
-}
