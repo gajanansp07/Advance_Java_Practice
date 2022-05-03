@@ -32,6 +32,7 @@ public class StudentController {
 		}
 		return msg;
 	}
+	
 	@PutMapping("/updateStd/{stdId}")
 	public Student updateStudent(@RequestBody Student stdModl, @PathVariable Integer stdId) {
 //		Student stdRes = stdServ.getStudent(stdId);
