@@ -5,4 +5,5 @@
     <fullyQualifiedTypeName name="java.sql.Connection"/>
     <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
     <fullyQualifiedTypeName name="java.sql.SQLSyntaxErrorException"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.http.Cookie"/>
 </qualifiedTypeNameHistroy>
