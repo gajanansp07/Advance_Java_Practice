@@ -1,5 +1,0 @@
-package com.Ganesh.entity;
-
-public @interface NoArgsConstructor {
-
-}

@@ -6,7 +6,6 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="emp")
 public class EmployeeOrcl {
 	@Id
 	@Column(name="eid")

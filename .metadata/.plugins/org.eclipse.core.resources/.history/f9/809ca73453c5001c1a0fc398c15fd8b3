@@ -1,5 +1,0 @@
-package com.Ganesh.repo;
-
-public interface ProductRepo {
-
-}

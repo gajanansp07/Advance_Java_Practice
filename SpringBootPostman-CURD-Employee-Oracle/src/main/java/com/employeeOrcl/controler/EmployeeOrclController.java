@@ -17,6 +17,7 @@ import com.employeeOrcl.service.EmployeeOrclService;
 
 @RestController
 public class EmployeeOrclController {
+
 @Autowired
 private EmployeeOrclService empService;
 
@@ -25,6 +26,7 @@ public ResponseEntity<EmployeeOrcl> saveEmployee(@RequestBody EmployeeOrcl emp){
 	EmployeeOrcl e = empService.saveEmp(emp);
 	return ResponseEntity.ok(e);
 }
+
 @PutMapping("/update")
 public ResponseEntity<EmployeeOrcl> updateEmployee(@RequestBody EmployeeOrcl emp){
 	EmployeeOrcl e = empService.updateEmp(emp);
