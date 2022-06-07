@@ -1,9 +1,11 @@
 package com.test.entity;
 
 import javax.persistence.Entity;
+import javax.persistence.Id;
 
 @Entity
 public class TestStudent {
+	@Id
 	private Integer stdId;
 	private String stdName;
 	private String stdCouse;

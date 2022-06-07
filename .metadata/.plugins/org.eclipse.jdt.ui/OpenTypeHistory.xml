@@ -6,5 +6,5 @@
     <typeInfo handle="=SpringBootCURD-Postman-Student-mysql/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.student.repo{StudentRepo.java[StudentRepo" modifiers="513" timestamp="1651230873904"/>
     <typeInfo handle="=SpringBootCURD-Postman-Student-mysql/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.student.service{StudentService.java[StudentService" modifiers="513" timestamp="1651231384120"/>
     <typeInfo handle="=SpringBootPostman_CURD_Book/C:\/Users\/user\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/2.6.4\/spring-data-jpa-2.6.4.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.data=/=/maven.artifactId=/spring-data-jpa=/=/maven.version=/2.6.4=/=/maven.scope=/compile=/&lt;org.springframework.data.jpa.repository.support(JpaRepositoryImplementation.class[JpaRepositoryImplementation" modifiers="1537" timestamp="1650645327543"/>
-    <typeInfo handle="=SpringBootCURDTest/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.test.service{TestStudentService.java[TestStudentService" modifiers="513" timestamp="1651774385404"/>
+    <typeInfo handle="=SpringBootCURDTest/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.test.service{TestStudentService.java[TestStudentService" modifiers="513" timestamp="1651942958233"/>
 </typeInfoHistroy>
